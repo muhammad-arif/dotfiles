@@ -202,7 +202,9 @@ bar {
 #bar {
 #       status_command i3status
 #}
-exec_always /usr/bin/compton --config /home/arif/compton.config -b 
-exec_always feh --bg-scale /home/arif/291acc42861789.57da5882737a8.jpg
+bindsym $mod+m exec "i3lock.sh"
+exec_always /usr/bin/compton --config /home/arif/.config/compton -b 
+exec_always feh --bg-scale wall.jpg
 exec_always nagstamon
 exec_always /home/arif/Downloads/Manageyum-2.0.0/Manageyum
+exec xautolock -time 15 -locker 'i3lock.sh' &
