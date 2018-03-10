@@ -1,0 +1,23 @@
+general {
+colors = true
+color_good = "#CC1616"
+color_bad = "#BBBBBB"
+color_degraded = "#55858E"
+interval = 2
+}
+
+order += "disk /"
+order += "load"
+order += "tztime local"
+
+tztime local {
+        format = "%Y-%m-%d %H:%M:%S"
+}
+
+load {
+        format = "%1min"
+}
+
+disk "/" {
+        format = "%avail"
+}

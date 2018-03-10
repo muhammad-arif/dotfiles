@@ -1,0 +1,60 @@
+# see "man i3status" for documentation.
+
+# It is important that this file is edited as UTF-8.
+# The following line should contain a sharp s:
+# ß
+# If the above line is not correctly displayed, fix your editor first!
+
+general {
+        colors = true
+        interval = 1
+	output_format = i3bar
+	color_good = "#f1f1f1"
+	color_degraded = "#f1f1f1"
+	color_bad = "#f1f1f1"
+	#color_good = "#00a7ab"
+	#color_degraded = "#f1f1f1"
+	#color_bad = "#ab0300"
+}
+
+order += "disk /"
+order += "disk /home"
+order += "volume master"
+order += "load"
+order += "ethernet _first_"
+order += "tztime local"
+
+disk "/" {
+	format = 	" %avail" 
+	prefix_type = 	"custom"
+}
+
+
+disk "/home" {
+	format = 	" %avail" 
+	prefix_type = 	"custom"
+	format_not_mounted = ""
+}
+
+
+ethernet _first_ {
+        format_up = " %ip"
+        format_down = ""
+}
+
+
+volume master {
+    format = "%volume"
+    format_muted = "%volume"
+    device = "default"
+    mixer = "Master"
+    mixer_idx = 0
+}
+
+load {
+    format = " %1min"
+}
+
+tztime local {
+	format = " %A %B %e  %H:%M:%S"
+}
