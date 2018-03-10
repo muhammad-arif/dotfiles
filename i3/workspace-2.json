@@ -1,0 +1,49 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 816,
+       "width": 1916,
+       "x": 0,
+       "y": 0
+    },
+    "name": "i3: Layout saving in i3 - Mozilla Firefox",
+    "percent": 0.8,
+    "swallows": [
+       {
+       // "class": "^Firefox$",
+       // "instance": "^Navigator$",
+       // "title": "^i3\\:\\ Layout\\ saving\\ in\\ i3\\ \\-\\ Mozilla\\ Firefox$",
+       // "transient_for": "^$",
+       // "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 362,
+       "width": 642,
+       "x": 0,
+       "y": 0
+    },
+    "name": "Terminal - root@arif:/home/arif/.config/i3",
+    "percent": 0.2,
+    "swallows": [
+       {
+       // "class": "^Xfce4\\-terminal$",
+       // "instance": "^xfce4\\-terminal$",
+       // "title": "^Terminal\\ \\-\\ root\\@arif\\:\\/home\\/arif\\/\\.config\\/i3$",
+       // "transient_for": "^$",
+       // "window_role": "^xfce4\\-terminal\\-1511833630\\-\\-375443272$"
+       }
+    ],
+    "type": "con"
+}
+

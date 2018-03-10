@@ -1,0 +1,185 @@
+// vim:ts=4:sw=4:et
+{
+    // splitv split container with 4 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.333333333333333,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 362,
+               "width": 642,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Terminal - arif@arif: ~/softs/forticlientsslvpn/64bit",
+            "percent": 0.116666666666667,
+            "swallows": [
+               {
+               // "class": "^Xfce4\\-terminal$",
+               // "instance": "^xfce4\\-terminal$",
+               // "title": "^Terminal\\ \\-\\ arif\\@arif\\:\\ \\~\\/softs\\/forticlientsslvpn\\/64bit$",
+               // "transient_for": "^$",
+               // "window_role": "^xfce4\\-terminal\\-1511830177\\-1100641312$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 362,
+               "width": 642,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Terminal - htop",
+            "percent": 0.116666666666667,
+            "swallows": [
+               {
+               // "class": "^Xfce4\\-terminal$",
+               // "instance": "^xfce4\\-terminal$",
+               // "title": "^Terminal\\ \\-\\ htop$",
+               // "transient_for": "^$",
+               // "window_role": "^xfce4\\-terminal\\-1511837687\\-\\-1380275171$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 362,
+               "width": 642,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Terminal - arif@arif: ~/softs/forticlientsslvpn/64bit",
+            "percent": 0.516666666666667,
+            "swallows": [
+               {
+               // "class": "^Xfce4\\-terminal$",
+               // "instance": "^xfce4\\-terminal$",
+               // "title": "^Terminal\\ \\-\\ arif\\@arif\\:\\ \\~\\/softs\\/forticlientsslvpn\\/64bit$",
+               // "transient_for": "^$",
+               // "window_role": "^xfce4\\-terminal\\-1511837687\\-1271056509$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 362,
+               "width": 642,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Terminal - /usr/local/bin/tty-clock -ncs -C 6",
+            "percent": 0.25,
+            "swallows": [
+               {
+               // "class": "^Xfce4\\-terminal$",
+               // "instance": "^xfce4\\-terminal$",
+               // "title": "^Terminal\\ \\-\\ \\/usr\\/local\\/bin\\/tty\\-clock\\ \\-ncs\\ \\-C\\ 6$",
+               // "transient_for": "^$",
+               // "window_role": "^xfce4\\-terminal\\-1511837687\\-982518760$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.333333333333333,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 362,
+               "width": 642,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Terminal - arif@arif: ~",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^Xfce4\\-terminal$",
+               // "instance": "^xfce4\\-terminal$",
+               // "title": "^Terminal\\ \\-\\ arif\\@arif\\:\\ \\~$",
+               // "transient_for": "^$",
+               // "window_role": "^xfce4\\-terminal\\-1511830177\\-189833925$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 362,
+               "width": 642,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Terminal - alsamixer",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^Xfce4\\-terminal$",
+               // "instance": "^xfce4\\-terminal$",
+               // "title": "^Terminal\\ \\-\\ alsamixer$",
+               // "transient_for": "^$",
+               // "window_role": "^xfce4\\-terminal\\-1511833938\\-\\-1727521563$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 362,
+       "width": 642,
+       "x": 0,
+       "y": 0
+    },
+    "name": "Terminal - arif@arif:~/dumps",
+    "percent": 0.333333333333333,
+    "swallows": [
+       {
+       // "class": "^Xfce4\\-terminal$",
+       // "instance": "^xfce4\\-terminal$",
+       // "title": "^Terminal\\ \\-\\ arif\\@arif\\:\\~\\/dumps$",
+       // "transient_for": "^$",
+       // "window_role": "^xfce4\\-terminal\\-1511830637\\-972291306$"
+       }
+    ],
+    "type": "con"
+}
+
